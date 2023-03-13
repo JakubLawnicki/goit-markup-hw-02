@@ -1,0 +1,21 @@
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.secondary-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.something {
+  background: #f5f4fa;
+}
+
+.something:hover {
+  background: #2196f3;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+    drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
