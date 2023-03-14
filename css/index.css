@@ -19,3 +19,31 @@
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #212121;
+}
+
+.navigation:hover {
+  color: #2196f3;
+}
+
+.webstudio {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.contact-links-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+}
+
+.contact-links-header:hover {
+  color: #2196f3;
+}
