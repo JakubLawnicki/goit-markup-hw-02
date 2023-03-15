@@ -2,6 +2,7 @@
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
+  color: #ffffff;
 }
 
 .secondary-heading {
@@ -10,14 +11,24 @@
   line-height: 42px;
 }
 
-.something {
+.filter-button {
   background: #f5f4fa;
 }
 
-.something:hover {
+.filter-button:hover {
   background: #2196f3;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
     drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.filter-button-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.filter-button-content:hover {
+  color: #ffffff;
 }
 
 .navigation {
@@ -46,4 +57,63 @@
 
 .contact-links-header:hover {
   color: #2196f3;
+}
+
+.background-dark {
+  background: #2f303a;
+}
+
+.city-street {
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contact-links-footer {
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.hero-button {
+  width: 200px;
+  height: 50px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero-button-content {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.tertiary-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.tertiary-heading-content {
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+}
+
+.john-doe {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.john-doe-job {
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
 }
