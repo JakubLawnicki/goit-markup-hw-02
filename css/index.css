@@ -94,14 +94,7 @@
   list-style-type: none;
 }
 
-.main-heading {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  color: #ffffff;
-}
-
-.navigation {
+.list li a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -109,16 +102,25 @@
   text-decoration: none;
 }
 
-.navigation:focus {
+.list li a:hover {
   color: var(--hover-color);
 }
 
-.navigation:hover {
+.list li a:focus {
   color: var(--hover-color);
 }
 
-.portfolio-active {
-  color: var(--hover-color);
+.list li p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #757575;
+}
+
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
 }
 
 .projects-descriptions {
@@ -143,12 +145,6 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 1.1;
-}
-
-.tertiary-heading-content {
-  font-size: 14px;
-  line-height: 1.71;
-  color: #757575;
 }
 
 .webstudio {
